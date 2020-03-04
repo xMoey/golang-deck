@@ -24,5 +24,6 @@ func main() {
 	// fmt.Println(string(mk))
 
 	// https://golang.org/pkg/io/#Writer
+	// pipes information from source to destination:
 	io.Copy(os.Stdout, resp.Body)
 }
